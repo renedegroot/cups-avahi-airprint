@@ -2,7 +2,7 @@ FROM alpine:latest
 
 # Install the packages we need. Avahi will be included
 RUN echo "http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories &&\
-	apk add --update cups \
+	apk add --update --no-cache cups \
 	cups-libs \
 	cups-pdf \
 	cups-client \
@@ -12,9 +12,11 @@ RUN echo "http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositorie
 	ghostscript \
 	avahi \
 	inotify-tools \
-	python \
-	python-dev \
-	py-pip \
+	curl \
+	jq \
+	python3 \
+	python3-dev \
+	py3-pip \
 	build-base \
 	wget \
 	rsync \
