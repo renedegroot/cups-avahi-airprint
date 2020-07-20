@@ -8,6 +8,7 @@ RUN echo "http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositorie
 	cups-client \
 	cups-filters \
 	cups-dev \
+	hplip \
 	ghostscript \
 	avahi \
 	inotify-tools \
