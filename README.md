@@ -1,8 +1,8 @@
-# chuckcharlie/cups-avahi-airprint
+# renedegroot/cups-avahi-airprint
 
-Fork from [quadportnick/docker-cups-airprint](https://github.com/quadportnick/docker-cups-airprint)
+Fork from [chuckcharlie/docker-cups-airprint](https://github.com/chuckcharlie/docker-cups-airprint)
 
-This Alpine-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable. The other images out there never seemed to work right. I forked the original to use Alpine instead of Ubuntu and work on more host OS's.
+This Alpine-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable. The other images were out of date, and seemed not to be working anymore. I forked Alpine image and updated it to work with Python 3. Since I use a HP printer i've included the hplip printing and imaging library.
 
 ## Configuration
 
