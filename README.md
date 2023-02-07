@@ -4,7 +4,7 @@ Fork from [chuckcharlie/docker-cups-airprint](https://github.com/chuckcharlie/do
 
 This Alpine-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable. The other images were out of date, and seemed not to be working anymore. I forked Alpine image and updated it to work with Python 3. Since I use a HP printer i've included the hplip printing and imaging library.
 
-07/02/2023: Please do not use this version, working on update
+07/02/2023: Please do not use this version, working on update!
 
 ## Configuration
 
