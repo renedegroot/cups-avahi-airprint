@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 
 # Install the packages we need. Avahi will be included
 RUN echo "http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories &&\
